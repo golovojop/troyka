@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Здесь картинка с определением всех основных элементов окна и названием их цветов -->
+    <!-- https://treyrobinson.net/blog/android-l-tutorials-part-2-material-theme-colors/ -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+
+        <!-- ActionBar color-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- ActionBar shadow color-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Text color of Views in window -->
+        <item name="android:textColor">@color/foreground_material_light</item>
+
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColorPrimary">@color/foreground_material_light</item>
+
+        <!-- Menu item background -->
+        <item name="android:itemBackground">@color/colorPrimaryDark</item>
+
+        <!-- Buttons Style -->
+        <item name="buttonStyle">@style/AppTheme.Button</item>
+    </style>
+
+    <!-- Buttons style  -->
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- MainActivity TextView style  -->
+    <style name="tv_info" parent="@android:style/TextAppearance">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MenuTextStyle"
+        parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#F0F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24dip</item>
+    </style>
+</resources>

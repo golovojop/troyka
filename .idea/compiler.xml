@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="com.android.support-animated-vector-drawable-24.0.0" target="1.7" />
+      <module name="com.android.support-appcompat-v7-24.0.0" target="1.7" />
+      <module name="com.android.support-support-v4-24.0.0" target="1.7" />
+      <module name="com.android.support-support-vector-drawable-24.0.0" target="1.7" />
+      <module name="tr01read" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-bootclasspath $USER_HOME$/Android/Sdk/platforms/android-24/android.jar -g" />
+  </component>
+</project>

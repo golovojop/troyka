@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ActionBar color-->
+    <color name="colorPrimary">#0377FF</color>
+
+    <!-- ActionBar shadow color-->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="skyBlue">#87CEEB</color>
+    <color name="buttonBurn">#209943</color>
+
+    <!-- Window background -->
+    <color name="background_material_light">#FF375184</color>
+    <!-- Window foreground (default font's color)-->
+    <color name="foreground_material_light">#FFFFFF</color>
+</resources>

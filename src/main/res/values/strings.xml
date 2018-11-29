@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TroykaCash v0.1</string>
+
+    <string name="error_nfc">NFC error</string>
+    <string name="error_no_nfc">NFC module disabled or not installed</string>
+    <string name="error_mifare_connect">Can\'t connect to card</string>
+    <string name="error_tag_extract">Can\'t get a Tag instance</string>
+    <string name="error_dump_read">Can\'t read a sector</string>
+
+    <string name="card_wait">Waiting for card...</string>
+    <string name="card_id">cardID</string>
+
+    <string name="dump_file">fileDump</string>
+    <string name="action_dumps">Card dumps</string>
+    <string name="button_Save">Save</string>
+    <string name="button_Burn">Burn</string>
+
+</resources>
